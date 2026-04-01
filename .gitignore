@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables 
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.pkl
+*.index
+
+# Model files
+*.bin
+*.pt
+*.onnx
