@@ -17,8 +17,8 @@
 
 | Hafta | Tarih Aralığı | Planlanan İş | Tahmini Tamamlanma (%) | Durum |
 |-------|---------------|--------------|------------------------|-------|
-| 1 | 01.04 - 05.04 | Bitirme projesi için public GitHub reposunun oluşturulması, proje kapsamının netleştirilmesi, haftalık planın hazırlanması ve temel klasör yapısının kurulması | %10 | 🔄 Devam Ediyor |
-| 2 | 06.04 - 12.04 | Veri kaynaklarının düzenlenmesi, veri ön işleme adımlarının belirlenmesi ve anonimleştirme hattının oluşturulması | %20 | ⬜ Başlamadı |
+| 1 | 01.04 - 05.04 | Bitirme projesi için public GitHub reposunun oluşturulması, proje kapsamının netleştirilmesi, haftalık planın hazırlanması ve temel klasör yapısının kurulması | %10 | ✅ Tamamlandı |
+| 2 | 06.04 - 12.04 | Veri kaynaklarının düzenlenmesi, veri ön işleme adımlarının belirlenmesi ve anonimleştirme hattının oluşturulması | %20 | 🔄 Devam Ediyor |
 | 3 | 13.04 - 19.04 | BM25 tabanlı kelime temelli arama yapısının eklenmesi ve örnek sorgularla ilk retrieval testlerinin yapılması | %30 | ⬜ Başlamadı |
 | 4 | 27.04 - 03.05 | Embedding tabanlı semantik arama hattının geliştirilmesi ve vektör indeksleme altyapısının hazırlanması | %40 | ⬜ Başlamadı |
 | 5 | 04.05 - 10.05 | Hibrit retrieval yapısının kurulması, kelime temelli ve semantik sonuçların birleştirilmesi, sıralama mantığının iyileştirilmesi | %52 | ⬜ Başlamadı |
@@ -34,6 +34,32 @@
 
 ## Haftalık İlerleme Kayıtları
 
+
+---
+### Hafta 2 *(Tarih: 06.04.2026 - 12.04.2026)*
+
+**Plandaki hedef:**
+- Veri kaynaklarının düzenlenmesi
+- Veri ön işleme adımlarının belirlenmesi
+- Anonimleştirme hattının oluşturulması
+
+**Bu hafta yaptıklarım:**
+- Örnek ticket veri seti oluşturdum
+- Veri ön işleme sürecini planladım
+- E-posta, telefon, IP ve isim bilgilerini maskeleyen anonimleştirme modülünü geliştirdim
+- Veri pipeline yapısına ait dokümantasyon ekledim
+
+**Plana göre durumum:**
+- Hafta 2 hedeflerine ulaşıldı
+- Retrieval aşamasına geçmek için veri hazırlama zemini oluşturuldu
+
+**Karşılaştığım sorunlar / zorluklar:**
+- Farklı veri tipleri için ortak anonimleştirme yaklaşımını sade tutmak gerekti
+- Gerçek veri yerine örnek veri kullanımı planlandı
+
+**Gelecek hafta hedefim:**
+- BM25 tabanlı retrieval yapısı eklenecek
+- İlk arama testleri yapılacak
 
 ---
 
