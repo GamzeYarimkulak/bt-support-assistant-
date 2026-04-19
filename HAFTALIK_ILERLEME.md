@@ -34,6 +34,29 @@
 
 ## Haftalık İlerleme Kayıtları
 
+### Hafta 3 *(Tarih: 13.04.2026 - 19.04.2026)*
+
+**Plandaki hedef:**
+- BM25 tabanlı kelime temelli arama yapısının eklenmesi
+- Örnek sorgularla ilk retrieval testlerinin yapılması
+
+**Bu hafta yaptıklarım:**
+- BM25 tabanlı kelime temelli retrieval modülünü projeye ekledim
+- Retrieval modülünün proje yapısına entegrasyonunu başlattım
+- Retrieval performansını kontrol etmek için temel test dosyası ekledim
+- BM25 arama mantığının örnek dokümanlar ve ticket dönüşümü üzerinden çalışmasını doğruladım
+
+**Plana göre durumum:**
+- Hafta 3 hedefleri büyük ölçüde tamamlandı
+- Kelime temelli retrieval hattı oluşturuldu ve test aşaması başlatıldı
+
+**Karşılaştığım sorunlar / zorluklar:**
+- Sorgu ve doküman metinlerinin uygun şekilde işlenmesi için yapı gözden geçirildi
+- Test senaryolarında örnek veri ile anlamlı sonuç üretimini dengelemek gerekti
+
+**Gelecek hafta hedefim:**
+- Embedding tabanlı semantik retrieval yapısını eklemek
+- Vektör indeksleme altyapısını hazırlamak
 
 ---
 ### Hafta 2 *(Tarih: 06.04.2026 - 12.04.2026)*
