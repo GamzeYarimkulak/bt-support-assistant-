@@ -19,7 +19,7 @@
 |-------|---------------|--------------|------------------------|-------|
 | 1 | 01.04 - 05.04 | Bitirme projesi için public GitHub reposunun oluşturulması, proje kapsamının netleştirilmesi, haftalık planın hazırlanması ve temel klasör yapısının kurulması | %10 | ✅ Tamamlandı |
 | 2 | 06.04 - 12.04 | Veri kaynaklarının düzenlenmesi, veri ön işleme adımlarının belirlenmesi ve anonimleştirme hattının oluşturulması | %20 | ✅ Tamamlandı |
-| 3 | 13.04 - 19.04 | BM25 tabanlı kelime temelli arama yapısının eklenmesi ve örnek sorgularla ilk retrieval testlerinin yapılması | %30 | ⬜ Başlamadı |
+| 3 | 13.04 - 19.04 | BM25 tabanlı kelime temelli arama yapısının eklenmesi ve örnek sorgularla ilk retrieval testlerinin yapılması | %30 | ✅ Tamamlandı |
 | 4 | 27.04 - 03.05 | Embedding tabanlı semantik arama hattının geliştirilmesi ve vektör indeksleme altyapısının hazırlanması | %40 | ⬜ Başlamadı |
 | 5 | 04.05 - 10.05 | Hibrit retrieval yapısının kurulması, kelime temelli ve semantik sonuçların birleştirilmesi, sıralama mantığının iyileştirilmesi | %52 | ⬜ Başlamadı |
 | 6 | 11.05 - 17.05 | RAG/chat pipeline’ının geliştirilmesi, kaynaklı yanıt üretimi ve “kaynak yoksa cevap yok” mantığının eklenmesi | %65 | ⬜ Başlamadı |
@@ -34,6 +34,29 @@
 
 ## Haftalık İlerleme Kayıtları
 
+### Hafta 3 *(Tarih: 13.04.2026 - 19.04.2026)*
+
+**Plandaki hedef:**
+- BM25 tabanlı kelime temelli arama yapısının eklenmesi
+- Örnek sorgularla ilk retrieval testlerinin yapılması
+
+**Bu hafta yaptıklarım:**
+- BM25 tabanlı kelime temelli retrieval modülünü projeye ekledim
+- Retrieval modülünün proje yapısına entegrasyonunu başlattım
+- Retrieval performansını kontrol etmek için temel test dosyası ekledim
+- BM25 arama mantığının örnek dokümanlar ve ticket dönüşümü üzerinden çalışmasını doğruladım
+
+**Plana göre durumum:**
+- Hafta 3 hedefleri büyük ölçüde tamamlandı
+- Kelime temelli retrieval hattı oluşturuldu ve test aşaması başlatıldı
+
+**Karşılaştığım sorunlar / zorluklar:**
+- Sorgu ve doküman metinlerinin uygun şekilde işlenmesi için yapı gözden geçirildi
+- Test senaryolarında örnek veri ile anlamlı sonuç üretimini dengelemek gerekti
+
+**Gelecek hafta hedefim:**
+- Embedding tabanlı semantik retrieval yapısını eklemek
+- Vektör indeksleme altyapısını hazırlamak
 
 ---
 ### Hafta 2 *(Tarih: 06.04.2026 - 12.04.2026)*
