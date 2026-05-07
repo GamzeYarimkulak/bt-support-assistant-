@@ -20,7 +20,7 @@
 | 1 | 01.04 - 05.04 | Bitirme projesi için public GitHub reposunun oluşturulması, proje kapsamının netleştirilmesi, haftalık planın hazırlanması ve temel klasör yapısının kurulması | %10 | ✅ Tamamlandı |
 | 2 | 06.04 - 12.04 | Veri kaynaklarının düzenlenmesi, veri ön işleme adımlarının belirlenmesi ve anonimleştirme hattının oluşturulması | %20 | ✅ Tamamlandı |
 | 3 | 13.04 - 19.04 | BM25 tabanlı kelime temelli arama yapısının eklenmesi ve örnek sorgularla ilk retrieval testlerinin yapılması | %30 | ✅ Tamamlandı |
-| 4 | 27.04 - 03.05 | Embedding tabanlı semantik arama hattının geliştirilmesi ve vektör indeksleme altyapısının hazırlanması | %40 | ⬜ Başlamadı |
+| 4 | 27.04 - 03.05 | Embedding tabanlı semantik arama hattının geliştirilmesi ve vektör indeksleme altyapısının hazırlanması | %40 | ✅ Tamamlandı |
 | 5 | 04.05 - 10.05 | Hibrit retrieval yapısının kurulması, kelime temelli ve semantik sonuçların birleştirilmesi, sıralama mantığının iyileştirilmesi | %52 | ⬜ Başlamadı |
 | 6 | 11.05 - 17.05 | RAG/chat pipeline’ının geliştirilmesi, kaynaklı yanıt üretimi ve “kaynak yoksa cevap yok” mantığının eklenmesi | %65 | ⬜ Başlamadı |
 | 7 | 18.05 - 24.05 | Anomali tespiti modülünün geliştirilmesi, semantik drift ve örnek anomali senaryolarının test edilmesi | %75 | ⬜ Başlamadı |
@@ -33,6 +33,34 @@
 ---
 
 ## Haftalık İlerleme Kayıtları
+
+### Hafta 4 *(Tarih: 27.04.2026 - 03.05.2026)*
+
+**Plandaki hedef:**
+- Embedding tabanlı semantik arama hattının geliştirilmesi
+- Vektör indeksleme altyapısının hazırlanması
+
+**Bu hafta yaptıklarım:**
+- Embedding tabanlı semantik retrieval modülünü projeye ekledim
+- SentenceTransformer kullanarak metinlerin vektör temsillerini oluşturdum
+- FAISS tabanlı vektör indeksleme yapısını kurarak benzerlik aramasını gerçekleştirdim
+- Retrieval performansını ölçmek için precision, recall, MAP ve nDCG metriklerini içeren değerlendirme modülünü ekledim
+- Semantik arama ile kelime temelli arama arasındaki farkları analiz ederek sistem davranışını gözlemledim
+
+**Plana göre durumum:**
+- Hafta 4 hedefleri büyük ölçüde tamamlandı
+- Semantik retrieval altyapısı oluşturuldu ve test edilebilir hale getirildi
+
+**Karşılaştığım sorunlar / zorluklar:**
+- Embedding boyutları ve indeksleme sürecinin performansa etkisi değerlendirildi
+- Vektör arama sonuçlarının anlamlılığını test etmek için uygun örnek veri oluşturulması gerekti
+
+**Gelecek hafta hedefim:**
+- Hibrit retrieval yapısını kurmak (BM25 + embedding)
+- Retrieval sonuçlarını birleştirme ve sıralama mantığını geliştirmek
+
+**Kişisel değerlendirme:**
+Bu hafta öğrendiğim yöntemler model performansını artırmak açısından oldukça faydalıydı.
 
 ### Hafta 3 *(Tarih: 13.04.2026 - 19.04.2026)*
 
