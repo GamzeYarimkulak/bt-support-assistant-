@@ -21,7 +21,7 @@
 | 2 | 06.04 - 12.04 | Veri kaynaklarının düzenlenmesi, veri ön işleme adımlarının belirlenmesi ve anonimleştirme hattının oluşturulması | %20 | ✅ Tamamlandı |
 | 3 | 13.04 - 19.04 | BM25 tabanlı kelime temelli arama yapısının eklenmesi ve örnek sorgularla ilk retrieval testlerinin yapılması | %30 | ✅ Tamamlandı |
 | 4 | 27.04 - 03.05 | Embedding tabanlı semantik arama hattının geliştirilmesi ve vektör indeksleme altyapısının hazırlanması | %40 | ✅ Tamamlandı |
-| 5 | 04.05 - 10.05 | Hibrit retrieval yapısının kurulması, kelime temelli ve semantik sonuçların birleştirilmesi, sıralama mantığının iyileştirilmesi | %52 | ⬜ Başlamadı |
+| 5 | 04.05 - 10.05 | Hibrit retrieval yapısının kurulması, kelime temelli ve semantik sonuçların birleştirilmesi, sıralama mantığının iyileştirilmesi | %52 | ✅ Tamamlandı |
 | 6 | 11.05 - 17.05 | RAG/chat pipeline’ının geliştirilmesi, kaynaklı yanıt üretimi ve “kaynak yoksa cevap yok” mantığının eklenmesi | %65 | ⬜ Başlamadı |
 | 7 | 18.05 - 24.05 | Anomali tespiti modülünün geliştirilmesi, semantik drift ve örnek anomali senaryolarının test edilmesi | %75 | ⬜ Başlamadı |
 | 8 | 01.06 - 07.06 | API ve frontend entegrasyonunun yapılması, sohbet ekranı ve anomali panelinin birlikte çalışacak şekilde düzenlenmesi | %85 | ⬜ Başlamadı |
@@ -33,6 +33,32 @@
 ---
 
 ## Haftalık İlerleme Kayıtları
+
+
+### Hafta 5 *(Tarih: 04.05.2026 - 10.05.2026)*
+
+**Plandaki hedef:**
+- Hibrit retrieval yapısının kurulması
+- Kelime temelli ve semantik sonuçların birleştirilmesi
+- Sıralama mantığının iyileştirilmesi
+
+**Bu hafta yaptıklarım:**
+- BM25 ve embedding tabanlı retrieval sonuçlarını birleştiren hibrit retrieval modülünü projeye ekledim
+- Retrieval sonuçlarını normalize ederek tek bir hibrit skor üzerinden sıralama yapısını oluşturdum
+- Sorgu özelliklerine göre BM25 ve embedding ağırlıklarını dinamik olarak ayarlayan ağırlıklandırma modülünü ekledim
+- Kısa teknik sorgular, uzun açıklamalı sorgular ve dengeli sorgular için dinamik ağırlıklandırma davranışını test ettim
+
+**Plana göre durumum:**
+- Hafta 5 hedefleri büyük ölçüde tamamlandı
+- Hibrit retrieval hattı kuruldu ve test edilmeye başlandı
+
+**Karşılaştığım sorunlar / zorluklar:**
+- BM25 ve embedding skorlarının farklı ölçeklerde olması nedeniyle skor normalizasyonu gerekti
+- Kısa teknik sorgular ile uzun açıklamalı sorgular için aynı ağırlıklandırma yaklaşımının yeterli olmadığı görüldü
+
+**Gelecek hafta hedefim:**
+- RAG/chat pipeline yapısını oluşturmak
+- Kaynaklı yanıt üretimi ve “kaynak yoksa cevap yok” mantığını sisteme eklemek
 
 ### Hafta 4 *(Tarih: 27.04.2026 - 03.05.2026)*
 
