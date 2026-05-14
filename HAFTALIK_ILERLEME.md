@@ -22,7 +22,7 @@
 | 3 | 13.04 - 19.04 | BM25 tabanlı kelime temelli arama yapısının eklenmesi ve örnek sorgularla ilk retrieval testlerinin yapılması | %30 | ✅ Tamamlandı |
 | 4 | 27.04 - 03.05 | Embedding tabanlı semantik arama hattının geliştirilmesi ve vektör indeksleme altyapısının hazırlanması | %40 | ✅ Tamamlandı |
 | 5 | 04.05 - 10.05 | Hibrit retrieval yapısının kurulması, kelime temelli ve semantik sonuçların birleştirilmesi, sıralama mantığının iyileştirilmesi | %52 | ✅ Tamamlandı |
-| 6 | 11.05 - 17.05 | RAG/chat pipeline’ının geliştirilmesi, kaynaklı yanıt üretimi ve “kaynak yoksa cevap yok” mantığının eklenmesi | %65 | 🔄 Devam Ediyor |
+| 6 | 11.05 - 17.05 | RAG/chat pipeline’ının geliştirilmesi, kaynaklı yanıt üretimi ve “kaynak yoksa cevap yok” mantığının eklenmesi | %65 | ✅ Tamamlandı |
 | 7 | 18.05 - 24.05 | Anomali tespiti modülünün geliştirilmesi, semantik drift ve örnek anomali senaryolarının test edilmesi | %75 | ⬜ Başlamadı |
 | 8 | 01.06 - 07.06 | API ve frontend entegrasyonunun yapılması, sohbet ekranı ve anomali panelinin birlikte çalışacak şekilde düzenlenmesi | %85 | ⬜ Başlamadı |
 | 9 | 08.06 - 14.06 | Testlerin genişletilmesi, hata senaryolarının kontrol edilmesi, sistem performansının ve yanıt kalitesinin değerlendirilmesi | %93 | ⬜ Başlamadı |
@@ -33,6 +33,31 @@
 ---
 
 ## Haftalık İlerleme Kayıtları
+
+### Hafta 6 *(Tarih: 11.05.2026 - 17.05.2026)*
+
+**Plandaki hedef:**
+- RAG/chat pipeline’ının geliştirilmesi
+- Kaynaklı yanıt üretimi
+- “Kaynak yoksa cevap yok” mantığının eklenmesi
+
+**Bu hafta yaptıklarım:**
+- Retrieval sonuçlarını kullanarak yanıt üreten temel RAG pipeline yapısını projeye ekledim
+- Sistem yanıtlarında kullanılacak prompt şablonlarını oluşturdum
+- Yanıt güven skorlarını değerlendiren confidence kontrol mekanizmasını geliştirdim
+- Kaynak bulunamayan durumlarda sistemin güvenilir olmayan cevap üretmesini engelleyecek temel kontrol yapısını ekledim
+
+**Plana göre durumum:**
+- Hafta 6 hedeflerinin büyük bölümü tamamlandı
+- Temel RAG/chat pipeline yapısı oluşturuldu
+
+**Karşılaştığım sorunlar / zorluklar:**
+- Retrieval sonuçlarının prompt içine uygun şekilde yerleştirilmesi için yapı düzenlemeleri gerekti
+- Güven skoru eşiklerinin belirlenmesi sırasında farklı senaryolar test edildi
+
+**Gelecek hafta hedefim:**
+- Anomali tespit modülünü geliştirmek
+- Semantik drift ve örnek anomali senaryolarını test etmek
 
 
 ### Hafta 5 *(Tarih: 04.05.2026 - 10.05.2026)*
